@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,12 +16,39 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  margin-top: 10%;
 }
+button#bnb-button{
+margin-top: 5%;
+ margin-right:5%;
+}
+button#btc-button{
+margin-right: 5%;
+}
+label#label-alts{
+  margin-right:2%
+}
+select#currency-picker{
+margin-right: 5%;
+}
+input#input-pair{
+  margin-top: 5%;
+}
+label#label-change{
+  margin-left:2%
+}
+input#radiobutton-change{
+  margin-left: 5%;
+}
+label#label-volume{
+  margin-left:2%
+}
+input#radiobutton-volume{
+  margin-left: 5%;
+}
+div#ag-grid-table-all-currency{
+  margin-left:25%;
+  margin-top: 5%;
+}
+
