@@ -1,3 +1,8 @@
+Description : 
+Things implemented in this solution :
+->All the functionalities mentioned in the test.
+-> Testing of the components using Jest.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
