@@ -10,9 +10,12 @@
     "ag-grid-community": "^23.1.0",
     "ag-grid-react": "^23.1.0",
     "bootstrap": "^4.5.0",
+    "enzyme-adapter-react-15": "^1.4.1",
+    "raf": "^3.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1",
     "react-websocket": "^2.1.0"
   },
   "scripts": {
@@ -34,6 +37,17 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-15": "^1.15.2",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "enzyme-to-json": "^3.4.4"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   }
 }

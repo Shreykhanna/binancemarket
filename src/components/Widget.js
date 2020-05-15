@@ -15,6 +15,7 @@ export default class Widget extends Component {
         { headerName: "Change", field: "change", sortable: true },
       ],
     },
+    count:0
   };
   componentDidMount() {
     // this.ws.onopen = () => {
@@ -52,6 +53,7 @@ export default class Widget extends Component {
     });
     this.setState({
       filteredData: filteredResults,
+      count:1
     });
   };
   filterStocks = (event) => {
@@ -62,6 +64,7 @@ export default class Widget extends Component {
     });
     this.setState({
       filteredData: filteredResults,
+      count:1
     });
     //  console.log(filteredResults);
   };
@@ -84,6 +87,7 @@ export default class Widget extends Component {
     }
     this.setState({
       filteredData: filteredResults,
+      count:1
     });
   };
   filterUSD = (event) => {
@@ -94,6 +98,7 @@ export default class Widget extends Component {
     });
     this.setState({
       filteredData: filteredResults,
+      count:1
     });
   };
   handleInputChange = (event) => {
@@ -127,7 +132,7 @@ export default class Widget extends Component {
       ],
     };
     this.setState({
-      gridOptions: newgridOptions,
+      gridOptions: newgridOptions
     });
   };
   render() {
